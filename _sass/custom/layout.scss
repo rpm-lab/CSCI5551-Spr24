@@ -3,3 +3,27 @@
 	white-space: nowrap;
 	overflow: hidden;
 }
+
+.side-by-side { 
+	display: flex; 
+  } 
+
+// .column {
+// float: left;
+// width: 50%;
+// }
+
+// /* Clear floats after the columns */
+// .row:after {
+// content: "";
+// display: table;
+// clear: both;
+// }
+
+.fp-row {
+	display: flex;
+}
+  
+.fp-column {
+	flex: 50%;
+}
